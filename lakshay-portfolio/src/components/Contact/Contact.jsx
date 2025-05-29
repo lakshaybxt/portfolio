@@ -77,7 +77,6 @@ const Contact = () => {
                     type="text"
                     placeholder="write your name..."
                     className="w-full px-4 py-3 bg-[#0f1115] border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-[#52B2E5]"
-
                     />
                 </div>
                 <div>
