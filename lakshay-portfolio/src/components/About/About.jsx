@@ -14,7 +14,7 @@ const expertise = [
 
 const About = () => {
   return (
-    <section className='bg-[#12171a] text-white py-16 px-4 md:px-20 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-t-lg p-12'>
+    <section id='About' className='bg-[#12171a] text-white py-16 px-4 md:px-20 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-t-lg p-12'>
       {/* Intro & Overview */}
       <div className='mb-12'>
         <p className='text-sm text-[#52B2E5] tracking-widest uppercase mb-2'>Introduction</p>

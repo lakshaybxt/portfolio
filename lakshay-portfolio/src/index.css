@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+* {
+    scroll-behavior: smooth;
+}
+
+.grid-cols-1 {
+  justify-content: center; /* centers the grid items horizontally */
+}
+
+@media (min-width: 670px) {
+    .custom-cols-2 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem; /* Tailwind's gap-6 */
+    }
+}
+
+@media (min-width: 1329px) {
+    .custom-cols-3 {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    .custom-cols-4 {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+}
