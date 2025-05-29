@@ -23,7 +23,7 @@ This portfolio is a personalized space for me to highlight my expertise, share m
 
 - **Project Showcase:** I can display his coding projects with detailed information, including technologies used, project descriptions, and live demo links.
 
-- **Skills Section:** A dedicated section to showcase my skills and proficiency in different programming languages, frameworks, and tools.
+- **Skills Section:** A  section to showcase my skills and proficiency in different programming languages, frameworks, and tools.
 
 - **Contact Form:** An interactive contact form allowing visitors to reach out to me directly.
 
@@ -31,27 +31,27 @@ This portfolio is a personalized space for me to highlight my expertise, share m
 
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git](https://github.com/Erik-Cupsa/PortfolioWebsite.git`
+1. Clone the repository: `git clone https://github.com/lakshaybxt/portfolio.git`
 
-2. Navigate to the project directory: `cd PortfolioWebsite`
+2. Navigate to the project directory: `cd lakshay-portfolio`
 
 3. Install dependencies: `npm install`
 
-4. Start the development server: `npm start`
+4. Start the development server: `npm run dev`
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
+5. Open your browser and visit [http://localhost:3000](http://localhost:5173)
 
 ## Technologies Used
 
 - ReactJs: A JavaScript library for building user interfaces.
-- Sass: A CSS preprocessor that enhances the styling capabilities of the application.
+- TailwindCSS: A CSS framework that enhances the styling capabilities of the application.
 
 ## Project Structure
 
 The project structure follows a standard React application layout. Key directories include:
 
 - `src/components`: Contains React components used to build different sections of the portfolio.
-- `src/styles`: Sass files for styling the application.
+- `src/assets`: Images for styling the application.
 - `public`: Static assets and the `index.html` file.
 
 ## Contributing
