@@ -23,7 +23,7 @@ const About = () => {
           I'm a passionate Java Developer with experience in building scalable backend systems and
           cloud-based applications. Skilled in Spring Boot, and databases like MySQL and
           PostgreSQL, I focus on creating efficient, secure, and high-performing solutions. With hands-on
-          expertise in developing platforms like SkillCanvas and EasyConnect, I enjoy solving complex
+          expertise in developing platforms like Restaurant Review and Blog Platform, I enjoy solving complex
           problems and delivering impactful user experiences. Let's collaborate and build something great!
         </p>
       </div>
