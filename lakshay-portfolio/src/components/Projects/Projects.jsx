@@ -23,14 +23,13 @@ const itemVariants = {
   visible: { opacity: 1, y: 0 },
 };
 
-
 const project = [
   {
     image: restaurant,
     title: "Restaurant Review Platform",
     main: "A location-based restaurant discovery and review web app built with Elasticsearch for fast and accurate search. Integrated with Keycloak for secure OAuth2 authentication. Users can view nearby restaurants, filter them by ratings, and write detailed reviews for individual restaurants.",
     hashes: ["#Java", "#Spring Boot", "#Docker", "#Elasticsearch", "#Keycloak"],
-    docLink: "",
+    docLink: "https://western-aluminum-170.notion.site/Restaurant-Review-Platform-API-Documentation-204e44bc5a7f8029a4e3d3d6153a6ffa",
     codeLink: "https://github.com/lakshaybxt/restaurant-review-platform.git", 
     demoLink: ""
   },
@@ -91,7 +90,7 @@ function Projects() {
           Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
         </p>
         <motion.div
-            className="py-12 grid grid-cols-1 custom-cols-2 custom-cols-3 custom-cols-4"
+            className="py-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 justify-items-center"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
