@@ -9,10 +9,11 @@ import jsIcon from '../../assets/skills-icons/skills-icons/js.svg';
 import reactIcon from '../../assets/skills-icons/skills-icons/react.svg'; 
 import postgresqlIcon from '../../assets/skills-icons/skills-icons/postgresql.svg';
 import gitIcon from '../../assets/skills-icons/skills-icons/git.svg'; 
+import Linux from '../../assets/skills-icons/skills-icons/linux.svg'; 
 import codeSoft from '../../assets/company/codeSoft.jpeg'
 import collegeTips from '../../assets/company/collegetips.webp'
 
-const experiences = [
+const experiences = [ 
   {
     role: "Java Developer Intern",
     company: "CodSoft",
@@ -45,8 +46,9 @@ const skills = [
   { name: "JavaScript", icon: jsIcon },
   { name: "React", icon: reactIcon },
   { name: "React", icon: postgresqlIcon },
-  { name: "Redux", icon: dockerIcon },
-  { name: "Tailwind CSS", icon: gitIcon }
+  { name: "Docker", icon: dockerIcon },
+  { name: "Git", icon: gitIcon },
+  { name: "Linux", icon: Linux }
 ];
 
 const Experience = () => {

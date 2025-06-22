@@ -7,6 +7,9 @@ import blog from '../../assets/projects/blog.webp'
 import seasons from '../../assets/projects/seasons.png'
 import task from '../../assets/projects/task.webp'
 import youTube from '../../assets/projects/youTube.webp'
+import ecom from '../../assets/projects/ecom.jpg'
+import share from '../../assets/projects/share.jpg'
+import love from '../../assets/projects/love.jpg'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -24,6 +27,15 @@ const itemVariants = {
 };
 
 const project = [
+  {
+    image: share,
+    title: "SafeShare(Ongoing)",
+    main: "A secure file-sharing web app built with Java, Spring Boot, and AWS (S3, Cognito, RDS). SafeShare allows users to upload, manage, and share files using expiring links, with strong authentication and cloud storage integration.",
+    hashes: ["#Java", "#Spring Boot", "#Spring Security", "#Docker", "#AWS", "#React"],
+    docLink: "",
+    codeLink: "https://github.com/lakshaybxt/SafeShare.git", 
+    demoLink: ""
+  },
   {
     image: restaurant,
     title: "Restaurant Review Platform",
@@ -43,6 +55,15 @@ const project = [
     demoLink: ""
   },
   {
+    image: love,
+    title: "Safe Route Finder(Idea)",
+    main: "A location-based women's safety and crime awareness app that uses real-time APIs to display area safety scores, recent crime reports, and testimonials. Built with Java, Spring Boot, and integrated with external safety datasets and geolocation services.",
+    hashes: ["#Java", "#Spring Boot", "#Spring Security", "#Docker", "#FetchAPT"],
+    docLink: "",
+    codeLink: "https://western-aluminum-170.notion.site/Safe-Route-Finder-213e44bc5a7f80ce95dbe8eb002f3739", 
+    demoLink: ""
+  },
+  {
     image: task,
     title: "Task Tracking",
     main: "A backend-driven task management system developed using Java, Spring Boot, PostgreSQL, and Docker. Enables users to create, update, and track tasks efficiently. Features include deadline management, task status updates, and user-specific task organization, with robust RESTful API support for seamless frontend integration.",
@@ -52,6 +73,15 @@ const project = [
     demoLink: ""
   },
   {
+    image: ecom,
+    title: "Ecommerce Backend",
+    main: "The Ecommerce Backend API provides a set of RESTful endpoints to manage products in an eCommerce application.It allows users to perform CRUD operations (Create, Read, Update, Delete) on products, supports image uploads, and search functionality.",
+    hashes: ["#Java", "#Spring Boot", "#Docker", "#MySQL"],
+    docLink: "https://documenter.getpostman.com/view/44336807/2sB2j68VQj",
+    codeLink: "https://github.com/lakshaybxt/E-Commerce-Backend.git", 
+    demoLink: ""
+  },
+  { 
     image: seasons,
     title: "Seasons-E-Commerce",
     main: "A vintage-themed online shopping platform inspired by Bewakoof, built with HTML, CSS, and JavaScript. Features include responsive design, product listings, detailed item pages, and a smooth shopping experience. Integrated with an AI-powered chatbot using Gemini API to assist users with product queries and enhance customer engagement.",
@@ -77,7 +107,7 @@ const project = [
     docLink: "",
     codeLink: "https://github.com/lakshaybxt/YouTube-Project.git",
     demoLink: "https://lakshaybxt.github.io/YouTube-Project/"
-  },
+  }
 ];
 
 function Projects() {
@@ -94,7 +124,11 @@ function Projects() {
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ 
+              once: true, 
+              amount: 0.1, // Reduced from 0.3 - mobile needs lower threshold
+              margin: "0px 0px -100px 0px" // Triggers animation earlier
+            }}
         >
             {project.map((proj, index) => (
                 <motion.div key={index} variants={itemVariants}>
