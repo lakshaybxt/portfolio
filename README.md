@@ -64,4 +64,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Thank you for checking out my Coding Portfolio! If you have any questions or feedback, feel free to reach out.
+Thank you for checking out my Coding Portfolio! If you have any questions or feedback, feel free to reach out!
