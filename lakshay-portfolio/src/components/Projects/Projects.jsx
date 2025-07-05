@@ -10,6 +10,7 @@ import youTube from '../../assets/projects/youTube.webp'
 import ecom from '../../assets/projects/ecom.jpg'
 import share from '../../assets/projects/share.jpg'
 import love from '../../assets/projects/love.jpg'
+import tournament from '../../assets/projects/tournament.png'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -28,10 +29,18 @@ const itemVariants = {
 
 const project = [
   {
+    image: love,
+    title: "Safe Route Finder",
+    main: "A location-based women's men's safety and crime awareness app that uses real-time APIs to display area safety scores, recent crime reports, and testimonials. Built with Java, Spring Boot, Docker and integrated with external safety datasets and geolocation services.",
+    hashes: ["#Java", "#Spring Boot", "#Docker", "#Spring Security","#RestAPI", "HTML", "CSS", "JavaScript"],
+    docLink: "https://western-aluminum-170.notion.site/Saathi-App-Authentication-Module-Documentation-21fe44bc5a7f80d38857f80537adb39e?pvs=73",
+    codeLink: "https://github.com/lakshaybxt/Saathi-Safe-Route-Finder.git", 
+    demoLink: ""
+  },{
     image: share,
     title: "SafeShare(Ongoing)",
     main: "A secure file-sharing web app built with Java, Spring Boot, and AWS (S3, Cognito, RDS). SafeShare allows users to upload, manage, and share files using expiring links, with strong authentication and cloud storage integration.",
-    hashes: ["#Java", "#Spring Boot", "#Spring Security", "#Docker", "#AWS", "#React"],
+    hashes: ["#Java", "#Spring Boot", "#Docker", "#Spring Security", "#AWS", "#React"],
     docLink: "",
     codeLink: "https://github.com/lakshaybxt/SafeShare.git", 
     demoLink: ""
@@ -46,21 +55,21 @@ const project = [
     demoLink: ""
   },
   {
-    image: blog,
-    title: "Blog Platform",
-    main: "A full-featured blogging backend built with Java, Spring Boot, and JWT-based authentication. Supports user registration and login, creating and managing blog posts, categorizing content with tags and categories, and secure role-based access. Designed for scalability and clean REST API integration.",
-    hashes: ["#Java", "#Spring Boot", "#Spring Security", "#Docker", "#PostgreSQL"],
-    docLink: "https://western-aluminum-170.notion.site/API-Documentation-Blog-Platform-1f4e44bc5a7f80e6867bdc48c53e4b43",
-    codeLink: "https://github.com/lakshaybxt/Blog-Platform.git", 
+    image: tournament,
+    title: "Tournament Registration API",
+    main: "This is a Spring Boot-based RESTful API for managing tournaments and user registrations. It provides endpoints to create and fetch tournaments, and allows users to register for available tournaments securely.",
+    hashes: ["#Java", "#Spring Boot", "#Docker", "#Spring Security", "#PostgreSQL"],
+    docLink: "western-aluminum-170.notion.site/Tournament-Registration-API-Documentation-225e44bc5a7f80b6be3bfa79e00c73ef",
+    codeLink: "https://github.com/lakshaybxt/tournament-registration-api.git", 
     demoLink: ""
   },
   {
-    image: love,
-    title: "Safe Route Finder(Idea)",
-    main: "A location-based women's safety and crime awareness app that uses real-time APIs to display area safety scores, recent crime reports, and testimonials. Built with Java, Spring Boot, and integrated with external safety datasets and geolocation services.",
-    hashes: ["#Java", "#Spring Boot", "#Spring Security", "#Docker", "#FetchAPT"],
-    docLink: "",
-    codeLink: "https://western-aluminum-170.notion.site/Safe-Route-Finder-213e44bc5a7f80ce95dbe8eb002f3739", 
+    image: blog,
+    title: "Blog Platform",
+    main: "A full-featured blogging backend built with Java, Spring Boot, and JWT-based authentication. Supports user registration and login, creating and managing blog posts, categorizing content with tags and categories, and secure role-based access. Designed for scalability and clean REST API integration.",
+    hashes: ["#Java", "#Spring Boot", "#Docker", "#Spring Security", "#PostgreSQL"],
+    docLink: "https://western-aluminum-170.notion.site/API-Documentation-Blog-Platform-1f4e44bc5a7f80e6867bdc48c53e4b43",
+    codeLink: "https://github.com/lakshaybxt/Blog-Platform.git", 
     demoLink: ""
   },
   {

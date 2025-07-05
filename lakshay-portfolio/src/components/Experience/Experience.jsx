@@ -12,12 +12,13 @@ import gitIcon from '../../assets/skills-icons/skills-icons/git.svg';
 import Linux from '../../assets/skills-icons/skills-icons/linux.svg'; 
 import codeSoft from '../../assets/company/codeSoft.jpeg'
 import collegeTips from '../../assets/company/collegetips.webp'
+import gametosa from '../../assets/company/gametosa.png'
 
 const experiences = [ 
   {
     role: "Java Developer Intern",
     company: "CodSoft",
-    date: "May 2025 – June 2025",
+    date: "April 2025 – May 2025",
     icon: codeSoft,
     points: [
       "Developed and implemented JUnit test cases, achieving 90% code coverage.",
@@ -34,6 +35,14 @@ const experiences = [
         "Worked on Java-based development tasks, delivering features and fixes within defined deadlines.",
         "Maintained detailed technical documentation to ensure clarity and ease of future reference.",
         "Followed Agile methodology for iterative development, sprint planning, and task tracking."
+    ]
+  },
+  {
+    role: "Backend Developer Intern",
+    company: "Gametosa Esports & Gaming",
+    date: "July 2025 – Present",
+    icon: gametosa,
+    points: [ 
     ]
   }
 ];
